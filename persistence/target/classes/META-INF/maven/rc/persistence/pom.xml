@@ -11,6 +11,9 @@
 	<name>persistence</name>
 	<description>Persistence</description>
 	<packaging>jar</packaging>
+	<!--properties>
+		<maven.deploy.skip>false</maven.deploy.skip>
+	</properties-->
 	<!-- it has a dependency on domain -->
 	<dependencies>
 		<dependency>
@@ -19,5 +22,4 @@
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
-
 </project>
